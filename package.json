@@ -1,0 +1,32 @@
+{
+  "author": "Ecolo",
+  "version": "0.0.1",
+  "description": "Virtual IoT device using MQTT protocol for testing purpose",
+  "license": "Apache-2.0",
+  "main": "ecolo_virtual_iot_device.js",
+  "name": "Ecolo Virtual IoT device",
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout=600000"
+  },
+  "dependencies": {
+    "@google-cloud/iot": "^2.0.0",
+    "@google-cloud/pubsub": "^2.0.0",
+    "jsonwebtoken": "^8.5.0",
+    "mqtt": "^4.0.0",
+    "yargs": "^16.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.1",
+    "uuid": "^8.0.0"
+  }
+}
